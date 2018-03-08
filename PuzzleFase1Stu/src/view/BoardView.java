@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  * Clase que representa la vista del tablero
- * @author Miguel Ángel
+ * @author Miguel Ã�ngel
  * @version 1.0
  */
 public class BoardView extends JPanel implements Observer {
@@ -35,15 +35,15 @@ public class BoardView extends JPanel implements Observer {
         return(resizedImage);
     }
 
-    //dividimos la imagen en el número
+    //dividimos la imagen en el nÃºmero
     private BufferedImage[] splitImage(BufferedImage image){
-        //Divisor de imágenes
+        //Divisor de imÃ¡genes
         BufferedImage images[] = null;
         return(images);
     }
-
+    
     public void update(int blankPos, int movedPos){
-
+    		
     }
 
     public void update(Graphics g){

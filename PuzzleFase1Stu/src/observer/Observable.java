@@ -2,7 +2,7 @@ package observer;
 
 
 /**
- * Interfaz que gestiona los elementos observados
+ * Interfaz que gestiona los elementos observados 
  * @author Miguel Ã�ngel 
  * @version 1.0
  */

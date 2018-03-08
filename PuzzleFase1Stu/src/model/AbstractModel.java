@@ -4,15 +4,15 @@ import observer.Observer;
 
 /**
  * Modelo abstracto de datos
- * @author Miguel Ángel
+ * @author Miguel Ã�ngel
  * @version 1.0
  */
 public abstract class AbstractModel<PieceModel> implements Observer {
-    //número de filas
+    //nÃºmero de filas
     protected int rowNum=0;
-    //número de columnas
+    //nÃºmero de columnas
     protected int columnNum=0;
-    //tamaño de la pieza
+    //tamaÃ±o de la pieza
     protected int pieceSize=0;
     //lista de images
     protected String[] imageList=null;
@@ -34,19 +34,19 @@ public abstract class AbstractModel<PieceModel> implements Observer {
     }
 
     /**
-     * Añade una nueva pieza en el modelo
+     * AÃ±ade una nueva pieza en el modelo
      * @param id identificador de la pieza
-     * @param indexRow índice de fila donde se encuentra ubicada la pieza
-     * @param indexCol índice de columna donde se encuentra ubidada la pieza
-     * @param imagePath ubicación de la imagen.
+     * @param indexRow Ã­ndice de fila donde se encuentra ubicada la pieza
+     * @param indexCol Ã­ndice de columna donde se encuentra ubidada la pieza
+     * @param imagePath ubicaciÃ³n de la imagen.
      */
     public abstract void addNewPiece(int id, int indexRow, int indexCol, String imagePath);
 
     /**
-     * Añade una nueva pieza en el modelo
+     * AÃ±ade una nueva pieza en el modelo
      * @param id identificador de la pieza
-     * @param indexRow índice de fila donde se encuentra ubicada la pieza
-     * @param indexCol índice de columna donde se encuentra ubidada la pieza
+     * @param indexRow Ã­ndice de fila donde se encuentra ubicada la pieza
+     * @param indexCol Ã­ndice de columna donde se encuentra ubidada la pieza
      */
     public abstract void addNewPiece(int id, int indexRow, int indexCol);
 
