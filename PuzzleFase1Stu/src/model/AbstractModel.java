@@ -7,7 +7,7 @@ import observer.Observer;
  * @author Miguel Ã�ngel
  * @version 1.0
  */
-public abstract class AbstractModel<PieceModel> implements Observer {
+public abstract class AbstractModel<BoardModel> implements Observer {
     //nÃºmero de filas
     protected int rowNum=0;
     //nÃºmero de columnas
